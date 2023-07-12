@@ -65,3 +65,18 @@ if __name__ == "__main__":
         for sample in tqdm(chat_data):
             sample["translation"] = translate_long(sample["input"])
             file.write(json.dumps(sample, ensure_ascii=False) + "\n")
+            
+{'loss': 1.2812, 'learning_rate': 0.00019908842297174112, 'epoch': 0.09}
+{'loss': 1.2778, 'learning_rate': 0.00019817684594348222, 'epoch': 0.09}
+{'loss': 1.2844, 'learning_rate': 0.00019726526891522336, 'epoch': 0.1}
+{'loss': 1.2634, 'learning_rate': 0.00019635369188696446, 'epoch': 0.1}
+{'loss': 1.2645, 'learning_rate': 0.00019544211485870557, 'epoch': 0.1}
+{'loss': 1.2745, 'learning_rate': 0.00019453053783044668, 'epoch': 0.11}
+{'loss': 1.263, 'learning_rate': 0.00019361896080218779, 'epoch': 0.11}
+{'loss': 1.2701, 'learning_rate': 0.0001927073837739289, 'epoch': 0.12}
+{'loss': 1.2916, 'learning_rate': 0.00019179580674567003, 'epoch': 0.12}
+{'loss': 1.2925, 'learning_rate': 0.00019088422971741113, 'epoch': 0.13}
+{'loss': 1.3061, 'learning_rate': 0.00018997265268915224, 'epoch': 0.13}
+{'loss': 1.3237, 'learning_rate': 0.00018906107566089335, 'epoch': 0.13}
+{'loss': 34023.7906, 'learning_rate': 0.00018814949863263448, 'epoch': 0.14}
+{'loss': 0.0, 'learning_rate': 0.0001872379216043756, 'epoch': 0.14}
